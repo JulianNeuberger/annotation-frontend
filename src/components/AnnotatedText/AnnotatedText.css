@@ -1,0 +1,102 @@
+.entity-Actor {
+    background-color: rgb(255, 159, 28);
+    color: #000;
+  }
+  
+.entity-Activity {
+    background-color: rgb(127, 200, 248);
+    color: #000;
+}
+
+.entity-Activity-Data {
+    background-color: rgb(106, 153, 78);
+    color: #000;
+}
+
+.entity-XOR-Gateway {
+    background-color: rgb(94, 123, 255);
+    color: #000;
+}
+
+.entity-AND-Gateway {
+    background-color: rgb(219, 212, 114);
+    color: #000;
+}
+
+.entity-Further-Specification {
+    background-color: rgb(255, 117, 143);
+    color: #000;
+}
+
+.entity-Condition-Specification {
+    background-color: rgb(157, 78, 221);
+    color: #000;
+
+}
+
+.first-token-of-entity {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .last-token-of-entity {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.entity-text {
+    padding-right: 2px;
+    
+}
+
+.entity-tag {
+    font-size: 9px;
+    margin-left: 4px;
+    margin-bottom: 2px;
+    margin-right: 1px;
+    padding: 2px 4px; 
+    background-color: #e0e0e0; 
+    border-radius: 4px; 
+    color: #333; 
+    font-weight: normal; 
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.annotated-text-container { 
+    font-size:  16px; 
+    line-height: 1.6; 
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    
+}
+
+
+.selected-token {
+    background-color: rgba(255, 69, 69, 0.692);
+    
+}
+
+.placeholder-text {
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.annotated-text-container .sentence-index {
+    cursor: default;
+    background-color: transparent;
+}
+
+/* .annotated-text-container span:not(.sentence-index):hover {
+    background-color: #d1d1d1;
+    border-radius: 5px;
+} */
+
+.mention-selected {
+    background-color: #fc7070; 
+}
+

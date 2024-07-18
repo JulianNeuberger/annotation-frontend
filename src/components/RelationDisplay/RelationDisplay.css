@@ -1,0 +1,105 @@
+.relations-list {
+    display: grid;
+    gap: 10px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    max-height: 65vh; /* Adjust the height as needed */
+    overflow-y: auto; /* Enables vertical scrolling */
+    overflow-x: hidden;
+}
+
+.relation-item {
+    font-size: 15px;
+    border: 1px solid #e0e0e0; 
+    padding: 10px;
+    margin-bottom: 5px; 
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-mention, .tail-mention {
+    border-radius: 4px; 
+    display: inline-block; 
+    margin-right: 2px;
+    margin-bottom: 15px; 
+    padding: 2px 4px; 
+}
+
+.relation-item > div {
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative; 
+}
+
+.ner-tag {
+    font-size: 10px;
+    background-color: #e0e0e0; 
+    border-radius: 4px; 
+    color: #333;
+    padding: 2px 4px; 
+    margin-left: 4px; 
+    border-radius: 4px; 
+    display: inline-block; 
+    vertical-align: middle; 
+}
+
+.relation-type {
+    border: 1px solid #ccc;
+    padding: 2px 4px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.relation-type.selected {
+    background-color: #007bff; /* Example: a light blue background for selected state */
+    color: white; /* White text for contrast */
+    border: 1px solid #0056b3; /* Darker border to match */
+}
+
+.relation-item button {
+    align-self: center;
+    padding: 6px 10px; 
+    font-size: 0.9em; 
+    margin-top: 0px;
+}
+
+.rl-divider {
+    height: 1px;
+    width: 80%;
+    background-color: #ccc;
+}
+
+.entity-group {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center; 
+    justify-content: center; 
+    border: 1px solid #ccc;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    gap: 10px;
+    position: relative;
+}
+
+.entity-label-container {
+    position: absolute;
+    top: -26px; 
+    right: 5px; 
+}
+
+.entity-label {
+    font-size: 0.5em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.selected-mention {
+    border: 5px solid white;
+}
